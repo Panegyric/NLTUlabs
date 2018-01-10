@@ -1,0 +1,446 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.header-marg {
+	margin-top: 0px;
+}
+
+H3 {
+	font-size: 180%;
+	font-family: "Amatic SC", cursive;
+	font-size: 250%;
+	text-align: center;
+	color: white;
+}
+H1 {
+	font-size: 300%;
+	font-family: "Amatic SC", cursive;
+	font-size: 250%;
+	text-align: center;
+}
+
+H2 {
+	font-size: 250%;
+	font-family: "Amatic SC", cursive;
+	font-size: 250%;
+	margin-left: 20px;
+}
+H4 {
+	font-size: 250%;
+	font-family: "Amatic SC", cursive;
+	font-size: 250%;
+	margin-left: 20px;
+}
+
+q {
+	font-size: 130%;
+	font-family: Century Gothic;
+	font-style: italic;
+	/* Курсивное начертание текста */
+	color: #ffffff;
+	/* Синий цвет текста */
+	quotes: "\00ab" "\00bb";
+	/* Кавычки в виде двойных угловых скобок */
+}
+
+.content-marg {
+	margin-bottom: 70px;
+	margin-top: 50px;
+}
+
+.content-marg-top {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.rom-dani {
+	height: 300px;
+}
+
+.row-content-dani {
+	vertical-align: middle;
+}
+
+.block-dani {
+	padding: 10px;
+	height: 190px;
+}
+
+.block-text {
+	height: inherit;
+	margin: inherit;
+}
+
+.form-conent {
+	margin: 5px;
+	margin-bottom: 20px;
+}
+
+.border-rounded {
+	height: auto;
+	padding-top: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-color: #357ae8;
+	border-style: solid;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-width: 3px;
+
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+	-webkit-box-shadow: 0 0 56px -2px rgba(116, 207, 255, 0.62);
+
+	box-shadow: 0 0 56px -2px rgba(116, 207, 255, 0.62);
+}
+
+hr {
+	margin: 0px;
+	border: none;
+	/* Убираем границу */
+	background-color: #4d90fe;
+	/* Цвет линии */
+	height: 3px;
+	/* Толщина линии */
+}
+
+.line {
+	border-left: 2px solid #4d90fe;
+	/* Параметры линии */
+	margin-left: 2px;
+	/* Отступ слева */
+	padding-left: 10px;
+	/* Расстояние от линии до текста */
+}
+
+.something-semantic {
+	display: table;
+	width: 100%;
+}
+
+.something-else-semantic {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.block {
+	text-align: center;
+	margin: 1px;
+}
+
+.block:before {
+	content: "\200B";
+	/*   content: '';
+  margin-left: -0.25em; */
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.loginmodal-container {
+	max-width: 390px;
+	width: 100% !important;
+	padding: 5px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: roboto;
+}
+
+.loginmodal-container h1 {
+	text-align: center;
+	font-size: 1.8em;
+	font-family: roboto;
+}
+
+.loginmodal-container input[type="submit"] {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.loginmodal-container input[type="text"],
+input[type="password"],
+input[type="email"] {
+	height: 44px;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 10px;
+	-webkit-appearance: none;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+	/* border-radius: 2px; */
+	padding: 0 8px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.loginmodal-submit {
+	/* border: 1px solid #3079ed; */
+	border: 0px;
+	color: #fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	background-color: #4d90fe;
+	padding: 17px 0px;
+	font-family: roboto;
+	font-size: 18px;
+	/* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+	/* border: 1px solid #2f5bb7; */
+	border: 0px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	background-color: #357ae8;
+	/* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.prof-name {
+	-webkit-box-shadow: 5px 5px 3px 0px rgba(53, 122, 232, 0.58);
+	box-shadow: 5px 5px 3px 0px rgba(53, 122, 232, 0.58);
+	background-color: #357ae8;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.map {
+	margin-top: 10px;
+}
+
+.photo {
+	padding-top: 8px;
+	margin-top: 8px;
+	width: 225px;
+	margin: auto;
+	vertical-align: middle;
+	border-radius: 10px;
+}
+
+.circle-photo {
+	height: auto;
+	width: auto;
+	padding: 2px;
+	-webkit-box-shadow: 0 0 6px 2px #010408;
+	box-shadow: 0 0 6px 2px #010408;
+}
+
+.logo {
+	padding: 10px;
+}
+
+.pager-b {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.video-background {
+	background: #000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 33%;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	padding: 1rem;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+.vid-info h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	margin-top: 0;
+	line-height: 1.2;
+}
+.vid-info a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.5);
+	-webkit-transition: 0.6s background;
+	transition: 0.6s background;
+	border-bottom: none;
+	margin: 1rem auto;
+	text-align: center;
+}
+@media (min-aspect-ratio: 16/9) {
+	.video-foreground {
+		height: 300%;
+		top: -100%;
+	}
+}
+@media (max-aspect-ratio: 16/9) {
+	.video-foreground {
+		width: 300%;
+		left: -100%;
+	}
+}
+@media all and (max-width: 600px) {
+	.vid-info {
+		width: 50%;
+		padding: 0.5rem;
+	}
+	.vid-info h1 {
+		margin-bottom: 0.2rem;
+	}
+}
+@media all and (max-width: 500px) {
+	.vid-info .acronym {
+		display: none;
+	}
+}
+
+@-webkit-keyframes turning {
+	0% {
+		border-radius: 0 0 0 0;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	12.5% {
+		border-radius: 50% 0 0 0;
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	25% {
+		border-radius: 50% 50% 0 0;
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	37.5% {
+		border-radius: 50% 50% 50% 0;
+		-webkit-transform: rotate(135deg);
+		transform: rotate(135deg);
+	}
+	50% {
+		border-radius: 50% 50% 50% 50%;
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+		width: 10%;
+	}
+	62.5% {
+		border-radius: 0 50% 50% 50%;
+		-webkit-transform: rotate(225deg);
+		transform: rotate(225deg);
+	}
+	75% {
+		border-radius: 0 0 50% 50%;
+		-webkit-transform: rotate(270deg);
+		transform: rotate(270deg);
+	}
+	87.5% {
+		border-radius: 0 0 0 50%;
+		-webkit-transform: rotate(315deg);
+		transform: rotate(315deg);
+	}
+	100% {
+		border-radius: 0 0 0 0;
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes turning {
+	0% {
+		border-radius: 0 0 0 0;
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	12.5% {
+		border-radius: 50% 0 0 0;
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	25% {
+		border-radius: 50% 50% 0 0;
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	37.5% {
+		border-radius: 50% 50% 50% 0;
+		-webkit-transform: rotate(135deg);
+		transform: rotate(135deg);
+	}
+	50% {
+		border-radius: 50% 50% 50% 50%;
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+		width: 10%;
+	}
+	62.5% {
+		border-radius: 0 50% 50% 50%;
+		-webkit-transform: rotate(225deg);
+		transform: rotate(225deg);
+	}
+	75% {
+		border-radius: 0 0 50% 50%;
+		-webkit-transform: rotate(270deg);
+		transform: rotate(270deg);
+	}
+	87.5% {
+		border-radius: 0 0 0 50%;
+		-webkit-transform: rotate(315deg);
+		transform: rotate(315deg);
+	}
+	100% {
+		border-radius: 0 0 0 0;
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.divs {
+	width: 120px;
+	height: 120px;
+	background-color: rgba(116, 207, 255, 0.62);
+	margin: 50px;
+	-webkit-animation: turning 4s ease-out 1s infinite normal;
+	animation: turning 4s ease-out 1s infinite normal;
+}
+divs:hover {
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+}
+
+.header {
+	background-color: rgba(0, 0, 0, 0.44);
+}
+
+.rowsign {
+	background: url(hypnotize.png) repeat;
+	-webkit-box-shadow: 5px 10px 20px #b4b0b0 inset;
+	box-shadow: 5px 10px 20px #b4b0b0 inset;
+}

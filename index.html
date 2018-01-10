@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Лабораторна 4-6</title>
+    <script language="JavaScript" src="JS2.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700&amp;subset=cyrillic" rel="stylesheet">
+    <script language="JavaScript" src="newjavascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- head -->
+    <div class="row header">
+        <a id="home"></a>
+        <div class="container">
+            <div class="col-md-3 ">
+                <img src="images/other/logo.png" width="250" height="80" alt="..." class="animated flash logo">
+            </div>
+            <div class="header-marg">
+                <div class="col-md-8">
+                    <div class=" col-md-offset-2 col-md-2 ">
+                        <a href="#home">
+                            <h3>Home</h3>
+                        </a>
+                        <hr>
+                    </div>
+                    <div class="col-md-2 ">
+                        <a href="#about">
+                            <h3>About</h3>
+                        </a>
+                        <hr>
+
+                    </div>
+                    <div class="col-md-2 ">
+                        <a href="#price">
+                            <h3>Info</h3>
+                        </a>
+                        <hr>
+                    </div>
+                    <div class="col-md-2 ">
+                        <a href="#reviews">
+                            <h3>Reviews</h3>
+                        </a>
+                        <hr>
+                    </div>
+                    <div class="col-md-2 ">
+                        <a href="#map">
+                            <h3>Map</h3>
+                        </a>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- sign-in -->
+    <div class="row rowsign">
+        <a id="about"></a>
+        <div class="container ">
+            <div class="col-md-5 " style="margin: auto 0">
+                <div style="margin: auto">
+                    <div class="starter-template">
+                        <h1 style="font-family: 'Amatic SC', cursive; font-size: 350%; ">Ретельно продуманий</h1>
+                        <p class="lead line" style="font-family: 'Amatic SC', cursive; font-size: 300%; ">
+                            Ми розробляємо шаблони <br>високоадаптивних Landing Page,<br> на основі бібліотеки Bootstrap.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-offset-1 col-md-6">
+                <div class="container border-rounded" style="width: auto; max-width: 450px; background: rgba(255, 255, 255, 0.87);">
+                    <ul class="nav nav-pills" style="font-family: 'Amatic SC', cursive; font-size: 150%;  margin-top: 20px">
+                        <li class="active" style="margin-left: 10px"><a data-toggle="pill" href="#menu1">Реєстрація</a></li>
+                        <li><a data-toggle="pill" href="#menu2">Вхід</a></li>
+                        <li style="margin-left: 10%"><a data-toggle="pill" href="#menu3">Задати питання</a></li>
+                    </ul>
+                    <hr style="margin: 5px">
+                    <div class="tab-content" style="width: auto">
+                        <div id="menu1" class="tab-pane fade in active">
+                            <div class="" style="background-color: #ffffff;">
+                                <div>
+                                    <div class="loginmodal-container">
+                                        <div class="text-center">
+                                            <h2 style="font-family: 'Amatic SC', cursive; font-size: 300%;"> Увійти на сайт</h2><br></div>
+                                        <form>
+                                            <input type="email" name="email" placeholder="Email" required>
+                                            <input type="password" name="pass" placeholder="Пароль" required>
+                                            <input type="submit" name="login" class="login loginmodal-submit" value="Вхід">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                            <div class="" style="background-color: #ffffff;">
+                                <div>
+                                    <div class="loginmodal-container">
+                                        <div class="text-center">
+                                            <h2 style="font-family: 'Amatic SC', cursive; font-size: 300%;"> Увійти на сайт</h2><br></div>
+                                        <form>
+                                            <input type="email" name="email" placeholder="Email" required>
+                                            <input type="password" name="pass" placeholder="Пароль" required>
+                                            <input type="submit" name="login" class="login loginmodal-submit" value="Вхід">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu3" class="tab-pane fade">
+                            <h2>Задати питання</h2>
+                            <div class="" style="background-color: #ffffff;">
+                                <form>
+                                    <div class="loginmodal-container">
+                                        <input id="name" name="name" type="text" placeholder="Імя">
+                                        <input id="email" name="email" type="email" placeholder="Email">
+                                        <textarea id="message" name="message" class="text loginmodal-container" placeholder="Питання" rows="5"></textarea>
+                                        <input type="submit" name="login" class="login loginmodal-submit" value="Відправити">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- about -->
+    <div class="row " style="background-color: rgba(247, 247, 247, 0.99);">
+        <a id="price"></a>
+        <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+            <div class="col-md-8">
+                <div>
+                    <div class=" row-content-dani">
+                        <div class="col-md-6 block-dani">
+                            <img src="images/service/1.png" width="60" height="38" alt="...">
+                            <br>
+                            <h4>Якісно</h4>
+                            <p> Найдосконаліші рішення сворення Landig Page для будь-якого призначення.</p>
+                        </div>
+                        <div class="col-md-6 block-dani">
+                            <img src="images/service/2.png" width="40" height="40" alt="...">
+                            <br>
+                            <h4>Швидко!</h4>
+                            <p> Писати код ніколи не було так швидко! Система блоків все зробить за вас.</p>
+                        </div>
+                        <div class="col-md-6 block-dani">
+                            <img src="images/service/3.png" width="40" height="40" alt="...">
+                            <br>
+                            <h4>Новітні рішення</h4>
+                            <p>Підтримка найновітніх версій мов, та фреймворків. Створено професіоналами.</p>
+                        </div>
+                        <div class="col-md-6 block-dani">
+                            <img src="images/service/4.png" width="40" height="40" alt="...">
+                            <br>
+                            <h4>Кращий вибір</h4>
+                            <p>Лідер на ринку, серед сервісів блочного генерування сайтів. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <div>
+                        <h1 style="font-size: 60px;">Усі 4 умови успіху</h1>
+                        <p style="font-size: 300%; font-family: 'Amatic SC', cursive; text-align: center;">
+                            Створюйте абсолютно приголомшливі та творчі цільові сторінки без затрат часу та будь-де .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    </div>
+    <hr>
+    <!-- table -->
+    <div class="row" style="background-color: #357ae8">
+        <div class="container">
+            <div>
+                <div class="divs"></div>
+            </div>
+            <div class="col-md-6">
+                <div style="margin-top: 50px">
+                    <h3> Наші успіхи </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- coments -->
+    <div class="row" style="background-color: rgba(247, 247, 247, 0.99);; box-shadow: 5px 10px 20px #d1d1d1 inset;">
+        <a id="reviews"></a>
+        <div class="container">
+            <div class="content-marg">
+                <div class="col-md-3">
+                    <div>
+                        <div align="center" class="photo">
+                            <img src="images/team/1.jpg" width="230" height="290" alt="..." style="border-radius: 5px; box-shadow: 0 0 16px 2px #c4cad3;">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="prof-name">
+                        <h3>
+                            <strong>Тарас Шевченко</strong>
+                        </h3>
+                        <div class="text-center"><q> Краще рішення для початківців! </q></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <div align="center" class="photo">
+                            <img src="images/team/2.jpg" width="230" height="290" alt="..." style="border-radius: 5px; box-shadow: 0 0 16px 2px #c4cad3;">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="prof-name">
+                        <h3>
+                            <strong>Іван Франко</strong>
+                        </h3>
+                        <div class="text-center"><q> 10/10 </q></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <div align="center" class="photo">
+                            <img src="images/team/4.jpg" width="230" height="290" alt="..." style="border-radius: 5px; box-shadow: 0 0 16px 2px #c4cad3;">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="prof-name">
+                        <h3>
+                            <strong>Леся Українка</strong>
+                        </h3>
+                        <div class="text-center"><q> Зручний інтерфейс </q></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <div align="center" class="photo">
+                            <img src="images/team/3.jpg" width="230" height="290" alt="..." style="border-radius: 5px; box-shadow: 0 0 16px 2px #c4cad3;">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="prof-name">
+                        <h3>
+                            <strong>Котляр Іван</strong>
+                        </h3>
+                        <div class="text-center"><q> Швидко, зручно, якісно! </q></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- map -->
+    <div class="container" style="background: rgba(53, 122, 232, 0.33)">
+        <a id="map"></a>
+        <div class="row " style="height: auto">
+            <div class="col-md-offset-1 col-md-4" style="font-family: 'Amatic SC', cursive; font-size: 250%; text-align: center; color: white;">
+                <div>
+                    <h2>Як нас знайти?</h2>
+                    <p> Вулиця Природна, 10, Львів, Львівська область, 79000 </p> <a href="#demo" class="btn btn-info" data-toggle="collapse" style="margin-bottom: 20px;">Ми на карті</a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div id="demo" class="collapse map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5147.830758849137!2d23.999765229386135!3d49.825255617575934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m5!1s0x473ae7812c3908fd%3A0x26b7c9ff190ee930!2z0LLRg9C70LjRhtGPINCf0YDQuNGA0L7QtNC90LAsIDEwLCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!3m2!1d49.8252557!2d24.004142599999998!4m0!5e0!3m2!1suk!2sua!4v1512783720196" width="auto" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <!-- video -->
+
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- music -->
+    <div class="row" style="background: white; padding:50px 0 50px 0">
+        <div class="container">
+            <div class="">
+                <div class="col-md-6">
+                    </div>
+                <div class="col-md-6">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- pager -->
+    <div class="row" style="background: white">
+        <div class="pager-b">
+            <ul class="pager">
+                <li class="previous"><a href="#">Previous</a></li>
+                <ul class="pagination pagination-sm">
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li class="disabled"><a href="#">4</a></li>
+                </ul>
+                <li class="next"><a href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer -->
+    <div style="background: rgba(113, 113, 113, 0.3);">
+        <div class="row">
+            <div class="col-md-12" class="footer" style="font-family: 'Amatic SC', cursive; font-size: 150%; text-align: center; color: white;">
+                <center>
+                    <h2> StartGen </h2>
+                </center>
+                <center>
+                    <p>© 2017, StartGen. Всі права застережені.</p>
+                </center>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
