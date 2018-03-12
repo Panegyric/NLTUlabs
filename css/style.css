@@ -3,6 +3,10 @@ body{
     padding: 0;
     background: url(../background/hypnotize.png);
 }
+.row {
+    margin-right: 0px; 
+    margin-left: -15px;
+}
 .header-marg {
 	margin-top: 0px;
 }
@@ -190,6 +194,18 @@ input[type="email"] {
 	font-size: 18px;
 	/* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 }
+.loginmodal-realizacion {
+	/* border: 1px solid #3079ed; */
+	border: 0px;
+	color: #fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	background-color: #4d90fe;
+	padding: 10px 10px;
+	font-family: roboto;
+	font-size: 15px;
+    width: 47%;
+    margin: 1%;
+}
 
 .loginmodal-submit:hover {
 	/* border: 1px solid #2f5bb7; */
@@ -200,11 +216,10 @@ input[type="email"] {
 }
 
 .prof-name {
-	-webkit-box-shadow: 5px 5px 3px 0px rgba(53, 122, 232, 0.58);
-	box-shadow: 5px 5px 3px 0px rgba(53, 122, 232, 0.58);
+	box-shadow: 5px 5px 1px 0px rgba(53, 122, 232, 0.18);
 	background-color: #357ae8;
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: 2px;
 	margin-bottom: 20px;
 }
 
@@ -218,7 +233,7 @@ input[type="email"] {
 	width: 225px;
 	margin: auto;
 	vertical-align: middle;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .circle-photo {
